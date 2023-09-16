@@ -2,7 +2,7 @@
   "catalog": [
     {
       "type": "ckan-group",
-      "name": "Data.gov.au",
+      "name": "data.dev-wins.com",
       "url": "https://data.dev-wins.com",
       "excludeMembers": [
         "Rainforests (EVC_2005)",
