@@ -4,31 +4,6 @@
       "type": "ckan-group",
       "name": "Data.gov.au",
       "url": "https://data.gov.au",
-      "itemPropertiesByIds": [
-        {
-          "ids": [
-            "6TbYz2Jj/01809262-b20a-4fa2-96d2-73114722f364/aa8d7eea-9eed-42e5-a322-1abee690c49a",
-             ],
-          "itemProperties": {
-            "activeStyle": "",
-            "defaultColumn": {
-              "type": "hidden"
-            }
-          }
-        },
-        {
-          "ids": [
-            "6TbYz2Jj/01809262-b20a-4fa2-96d2-73114722f364/aa8d7eea-9eed-42e5-a322-1abee690c49a"
-          ],
-          "itemProperties": {
-            "defaultStyle": {
-              "color": {
-                "nullColor": "#22c5b6"
-              }
-            }
-          }
-        }
-      ],
       "excludeMembers": [
         "Rainforests (EVC_2005)",
         "National Native Title Tribunal"
