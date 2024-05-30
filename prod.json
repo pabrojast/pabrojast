@@ -11,16 +11,13 @@
       "groupBy": "organization",
       "supportedResourceFormats": [
         {
-          "id": "WMS",
-          "urlRegex": "^((?!data.gov.au/geoserver).)*$"
+          "id": "WMS"
         },
         {
-          "id": "Kml",
-          "onlyUseIfSoleResource": true
+          "id": "Kml"
         },
         {
-          "id": "Shapefile",
-          "onlyUseIfSoleResource": true
+          "id": "Shapefile"
         }
       ],
       "shareKeys": [
