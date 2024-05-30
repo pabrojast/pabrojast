@@ -4,9 +4,10 @@
       "type": "ckan-group",
       "name": "data.dev-wins.com",
       "url": "https://data.dev-wins.com",
-      "excludeMembers": [
-        "Rainforests (EVC_2005)",
-        "National Native Title Tribunal"
+      "filterQuery": [
+        {
+          "fq": "+(res_format:(wms OR WMS OR shapefile OR Shapefile OR \"zip (shp)\" OR shp OR SHP OR kmz OR GeoJSON OR geojson OR csv-geo-au OR aus-geo-csv))"
+        }
       ],
       "groupBy": "organization",
       "supportedResourceFormats": [
@@ -20,6 +21,16 @@
           "id": "Shapefile"
         }
       ],
+        "ungroupedTitle": "Organisation not declared",
+  "itemPropertiesByType": [
+    {
+      "type": "wms",
+      "itemProperties": {
+        "crs": "EPSG:3857"
+      }
+    }
+  ],
+  "resourceIdTemplate": "{{resource.name}}-{{resource.format}}",
       "shareKeys": [
         "Root Group"
       ]
